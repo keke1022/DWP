@@ -21,19 +21,14 @@ The covid-19 virus is getting serious at present. It is obvious that the medical
 
 ## Steps
 ### Part I: Supply and Demand Evaluation
-- Simulation of three months
-    - Total infection cases follow the S-curve
-    - A certain percentage of infected patients are severely ill
-    - Patients of different communities will only go to a particular clinic
-    - Severe cases are considered to have recovered after they go to clinic
-     
+- Simulation of the outbreak for a period
+    - Use SEIR model
+    - Set parameters to reflect the real situation in a region
 
 - Evaluate whether supply and demand meets
     - Draw the curve of severe cases
     - The slower rate of increase, the lower peak value, the better supply and demand meets
 
 ### Part II: Optimal Location of the Next Clinic
-- Use a mathematical formula to determine the effectiveness of a new location. The lower the value is, the better the location will be.
-  - $Effectiveness=\sum_{i=0}^n w_0((x - x_0)^2 + (y - y_0)^2)$
-- Divide the map into grid and calculate the effectiveness for each cell
-- Display the effectiveness in the form of heatmap, which will  indicate the optimal location
+- Divide the map into grid
+- Take advantage of a heat map to show the effectiveness of each cell as the fifth location
